@@ -1,0 +1,31 @@
+.Logo img {
+  width: 60px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.cards {
+  border: 1px solid black;
+  margin: 10px;
+}
+.cards > a {
+  display: block;
+}
+
+.cards img {
+  width: 254px;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}

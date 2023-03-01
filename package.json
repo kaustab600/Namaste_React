@@ -1,0 +1,36 @@
+{
+  "name": "reactpractice",
+  "version": "1.0.0",
+  "description": "React practice via npm",
+  "source": "index.html",
+  "scripts": {
+    "test": "jest",
+    "build-prod": "parcel build --dist-dir ./prod",
+    "build-dev": "parcel --https --dist-dir ./dev"
+  },
+  "browserslist": ">0.5%, last 2 versions",
+  "repository": {
+    "type": "git",
+    "url": "git+https://kaustab700@bitbucket.org/react-practice-akshai/react-practice.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Kaustab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/react-practice-akshai/react-practice/issues"
+  },
+  "homepage": "https://bitbucket.org/react-practice-akshai/react-practice#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0"
+  }
+}
